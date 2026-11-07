@@ -13,8 +13,12 @@ h1 {
     color: steelblue;
 }
 
-main {
+main img {
     max-width: 840px;
+    height: auto;
+    border: rgba(0 0 0 / 0.2);
+    padding: 0%;
+    box-shadow: #eee;
 }
 
 aside {
@@ -32,6 +36,7 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    padding: 0;
 }
 
 footer {
