@@ -13,6 +13,10 @@ h1 {
     color: steelblue;
 }
 
+main {
+    max-width: 840px;
+}
+
 main img {
     max-width: 840px;
     height: auto;
@@ -36,6 +40,10 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    padding: 0;
+}
+
+p {
     padding: 0;
 }
 
