@@ -1,16 +1,16 @@
 :root {
     --cor-primaria: #055a05;
     /* verde-floresta */
-    --cor-secundaria: #f4a261;
+    /* --cor-secundaria: #f4a261; */
     /* bege médio */
     --cor-destaque1: #264653;
     /* azul-escuro acinzentado */
     --cor-destaque2: #e9c46a;
     /* amarelo-claro dourado */
-    --fonte-titulo: "Times New Roman", "Georgia", "serif";
+    /* --fonte-titulo: "Times New Roman", "Georgia", "serif";
     --fonte-body: "Arial",
         "Helvetica",
-        "sans-serif";
+        "sans-serif"; */
 }
 
 header {
@@ -32,11 +32,13 @@ body {
 header,
 main,
 footer {
+    text-decoration: none;
     width: 1540px;
     margin: 0 auto;
 }
 
 nav {
+    text-decoration: none;
     width: 24px;
     height: 24px;
 }
