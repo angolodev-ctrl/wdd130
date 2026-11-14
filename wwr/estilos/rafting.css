@@ -7,10 +7,10 @@
     /* azul-escuro acinzentado */
     --cor-destaque2: #e9c46a;
     /* amarelo-claro dourado */
-    --fonte-titulo: "Times New Roman", "Georgia", serif;
-    --fonte-body: Arial,
-        Helvetica,
-        sans-serif;
+    --fonte-titulo: "Times New Roman", "Georgia", "serif";
+    --fonte-body: "Arial",
+        "Helvetica",
+        "sans-serif";
 }
 
 header {
@@ -36,6 +36,11 @@ footer {
     margin: 0 auto;
 }
 
+nav {
+    width: 24px;
+    height: 24px;
+}
+
 nav,
 p,
 section,
@@ -46,6 +51,7 @@ article {
 
 .redes-sociais a {
     text-decoration: none;
+
 }
 
 .hero {
@@ -62,8 +68,8 @@ article {
 h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
-    padding: 16px;
+    width: 110%;
+    padding: 20px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--cor-destaque1);
