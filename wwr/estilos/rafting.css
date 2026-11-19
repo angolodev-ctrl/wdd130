@@ -5,7 +5,7 @@
     /* azul-escuro acinzentado */
     --cor-destaque2: #e9c46a;
     /* amarelo-claro dourado */
-    --font-body: Arial, Helvetica, sans-serif
+
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 }
 
 body {
-    font-family: var(--fonte-body);
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--cor-destaque2);
 }
 
