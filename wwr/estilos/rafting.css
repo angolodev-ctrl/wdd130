@@ -9,8 +9,21 @@
 }
 
 header {
-    background-color: var(--cor-primaria);
+    display: grid;
+    /* background-color: var(--cor-primaria); */
     color: var(--cor-destaque2);
+
+    grid-template-columns: 150px 1fr;
+    /* Coluna fixa para o logo, espaço flexível para o menu */
+    align-items: center;
+    /* Centraliza verticalmente o logo e os links */
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    /* Limita a largura em telas muito grandes */
+    margin: 0 auto;
+    /* Centraliza o header na página */
+    border-bottom: 4px solid #bee9e8;
+    /* Detalhe visual na borda inferior */
 }
 
 * {
@@ -42,8 +55,11 @@ nav,
 p,
 section,
 article {
+    justify-content: flex-end;
+    display: flex;
     margin: 16px;
     padding: 8px;
+
 }
 
 .redes-sociais a {
