@@ -62,8 +62,27 @@ article {
 
 }
 
-.redes-sociais a {
+.redes-sociais {
     text-decoration: none;
+    display: flex;
+    /* Coloca os ícones lado a lado */
+    justify-content: flex-end;
+    /* Empurra todo o grupo para a direita */
+    align-items: center;
+    /* Alinha verticalmente no centro */
+    gap: 15px;
+    /* Espaço entre um ícone e outro */
+}
+
+/* Diminui o tamanho das imagens ou SVGs */
+.redes-sociais img,
+.redes-sociais svg {
+    width: 30px;
+    /* Largura ideal para ícones de rodapé */
+    height: 30px;
+    /* Mantém a proporção */
+    object-fit: contain;
+    /* Evita distorção */
 
 }
 
