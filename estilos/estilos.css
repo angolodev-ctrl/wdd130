@@ -38,23 +38,22 @@ main {
 }
 
 main img {
-    max-width: 840px;
+    float: right;
+    max-width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 0%;
-    box-shadow: 0 0 10px #eee;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0 0 0 / 0.2);
-    /* 1 */
-    ;
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    position: relative;
+    width: 20em;
     text-align: center;
+}
+
+aside h2 {
+    position: center top 10px;
 }
 
 aside img {
@@ -71,4 +70,14 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Classes */
+.caixa {
+    clear: both;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #ddd;
+    color: #000;
 }
